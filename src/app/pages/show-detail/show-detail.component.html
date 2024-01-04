@@ -99,7 +99,7 @@
     </p-carousel>
   </ng-container>
   <ng-container *ngIf="similarShows$ | async as similarShows">
-    <app-banner title="Watch Similar" [shows]="similarShows" />
+    <app-banner title="Watch Similar" [shows]="similarShows" [showsType]="showType"/>
   </ng-container>
 </ng-container>
 <ng-template #defaultActorPhoto>

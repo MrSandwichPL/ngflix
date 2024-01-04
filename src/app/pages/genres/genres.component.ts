@@ -26,6 +26,7 @@ export class GenresComponent implements OnInit {
     this.genres$ = this.mService.getMoviesGenres();
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   findByGenre(genreId: string) {
     // this.shows$ = this.mService.getMoviesbyGenre(genreId);
   }
